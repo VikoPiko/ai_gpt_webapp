@@ -1,4 +1,4 @@
-const pics = document.querySelectorAll('.imig1');
+const pics = document.querySelectorAll('.imig2');
 
 const activateMagneto = (event) => {
     let boundBox = event.target.getBoundingClientRect();
