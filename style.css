@@ -1,0 +1,113 @@
+:root{
+    --main-color: rgb(255, 136, 0);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/arkania.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.pics {
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+.section {
+    color: white;
+    width: 33%;
+    text-align: center;
+}
+
+.section p {
+    width: 30%;
+    font-weight: 700;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.btns{
+    gap: 30px;
+}
+
+.page2{
+    padding: 50px;
+    margin-top: 2rem;
+    background-image: url('images/forest-north.png');
+}
+.page3{
+    padding: 50px;
+    margin-top: 2rem;
+    background-image: url('images/ancient-ruins.png');
+}
+
+.page3 p{
+    font-weight: 600;
+}
+
+.btns a{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    box-shadow: 0 0 25px white;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0 0 25px transparent;
+    text-decoration: none;
+}
+.btns a:hover{
+    background-color: black;
+}
